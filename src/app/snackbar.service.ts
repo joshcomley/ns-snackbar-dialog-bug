@@ -4,12 +4,13 @@ export function showSimpleSnackbar() {
     snackbar.simple(`I'm a simple snackbar`).then(result => console.log('Simple Snackbar:', result));
 }
 
-export function showActionSnackbar() {
+export function showActionSnackbar(view?: any) {
     snackbar
         .action({
             message: `I'm a snackbar with an action`,
             actionText: 'Dismiss',
-            hideDelay: 2000
+            hideDelay: 2000,
+            view: view
         })
         .then(result => console.log('Action Snackbar:', result));
 }
