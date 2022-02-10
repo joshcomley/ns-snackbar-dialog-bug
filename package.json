@@ -37,7 +37,7 @@
     "@ngtools/webpack": "~8.3.23",
     "codelyzer": "~5.2.1",
     "nativescript-dev-webpack": "~1.4.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "tslint": "~6.0.0",
     "typescript": "~3.5.3"
   },
